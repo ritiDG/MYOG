@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Neon Effects */
+.neon {
+  box-shadow: 0 0 8px #0ff, 0 0 16px #0ff;
+}
+.neon-green {
+  box-shadow: 0 0 8px #0f0, 0 0 16px #0f0;
+}
+.neon-pink {
+  box-shadow: 0 0 8px #f0f, 0 0 16px #f0f;
+}
+.modal {
+  @apply fixed inset-0 bg-black/70 backdrop-blur-sm flex items-center justify-center z-50 p-4;
+}
